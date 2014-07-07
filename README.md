@@ -1,4 +1,10 @@
+Recommend
+------
 * [wymsee/cordova-HTTP](https://github.com/wymsee/cordova-HTTP) plugin is better than this plugin.
+
+
+
+
 
 phonegap-http-request
 =====================
