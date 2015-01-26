@@ -53,7 +53,7 @@ public class HttpRequest extends CordovaPlugin {
       if (args.length() > 2 && !args.get(2).equals(null)) {
         params = args.getJSONObject(2);
         @SuppressWarnings("unchecked")
-        Iterator<Object> iterator = params.keys();
+        Iterator<String> iterator = params.keys();
         String key;
         while(iterator.hasNext()){
           key = String.valueOf(iterator.next());
