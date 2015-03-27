@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="plugin.http.request" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="plugin.http.request" version="1.0.5" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>phonegap-http-request</name>
     <js-module name="phonegap-http-requst" src="www/http-request.js">
         <clobbers target="cordova.plugins.http-request" />
@@ -43,7 +43,5 @@
       <source-file src="src/ios/HttpRequest/HttpRequest.m" target-dir="HttpRequest" />
       <header-file src="src/ios/HttpRequest/R9HTTPRequest/R9HTTPRequest/R9HTTPRequest.h" target-dir="HttpRequest/R9HTTPRequest" />
       <source-file src="src/ios/HttpRequest/R9HTTPRequest/R9HTTPRequest/R9HTTPRequest.m" target-dir="HttpRequest/R9HTTPRequest" />
-      <source-file src="src/ios/HttpRequest/R9HTTPRequest/README" />
-      <source-file src="src/ios/HttpRequest/R9HTTPRequest/BSD-LICENSE" target-dir="HttpRequest/R9HTTPRequest" />
     </platform>
 </plugin>
